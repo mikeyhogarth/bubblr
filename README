@@ -6,16 +6,16 @@ Demo: http://bubblr-demo.heroku.com/
 # Current Options
 
 * numberOfBubbles (default 10)
-* backgroundColor (default "Blue")
+* backgroundColor (default "transparent")
 * bubbleColor (default "White")
 * bubbleOpacity (default .7)
 * bubbleMinSize (default 1)
 * bubbleMaxSize (default 2)
 * bubbleMaxSpeed (default 2)
 * bubbleMinSpeed (default 1)
+* animationSpeed (default 10)
+
 
 # Future development
 
-* Transparency
-* Animation speed option
 * Bubble direction / starting position

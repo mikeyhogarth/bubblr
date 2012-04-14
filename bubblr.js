@@ -12,7 +12,7 @@
 			bubbleMaxSize: 2,
 			bubbleMaxSpeed: 2,
 			bubbleMinSpeed: 1,
-			
+			animationSpeed: 10
         };
 
     function Bubblr( element, options ) {
@@ -52,7 +52,7 @@
 		
 		setInterval(function() {
 			self.animationLoop();
-			}, 10);
+			}, this.options.animationSpeed);
 
     };
 
@@ -71,7 +71,7 @@
 	Bubblr.prototype.clear = function () {
 		this.ctx.globalAlpha = 1;
 		this.ctx.fillStyle = this.options.backgroundColor;
-		this.ctx.fillRect(0,0,this.width, this.height);
+		this.ctx.clearRect(0,0,this.width, this.height);
 	};
 
 	Bubblr.prototype.draw = function (index, bubble) {	
