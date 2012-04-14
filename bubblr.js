@@ -5,7 +5,7 @@
     var defaults = {
 	
 			numberOfBubbles: 10,
-            backgroundColor: "Blue",
+            backgroundColor: "transparent",
 			bubbleColor: "White",
 			bubbleOpacity: .7,
 			bubbleMinSize: 1,
