@@ -15,7 +15,6 @@
 			
         };
 
-    // The actual plugin constructor
     function Bubblr( element, options ) {
         this.element = element;
         this.options = $.extend( {}, defaults, options) ;
@@ -117,10 +116,6 @@
 		return Math.floor((Math.random()*max)+min); 
 	};
 	
-   
-
-    // A really lightweight plugin wrapper around the constructor,
-    // preventing against multiple instantiations
     $.fn[pluginName] = function ( options ) {
         return this.each(function () {
             if (!$.data(this, 'plugin_' + pluginName)) {
