@@ -1,4 +1,21 @@
-Simple plugin (work in progress) for creating bubble effects on a canvas element.
+
+Work-in-progress JQuery plugin for creating particle effects on a canvas element, for use by humans.
 
 Demo: http://bubblr-demo.heroku.com/
 
+# Current Options
+
+* numberOfBubbles (default 10)
+* backgroundColor (default "Blue")
+* bubbleColor (default "White")
+* bubbleOpacity (default .7)
+* bubbleMinSize (default 1)
+* bubbleMaxSize (default 2)
+* bubbleMaxSpeed (default 2)
+* bubbleMinSpeed (default 1)
+
+# Future development
+
+* Transparency
+* Animation speed option
+* Bubble direction / starting position
