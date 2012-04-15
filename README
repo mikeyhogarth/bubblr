@@ -1,5 +1,5 @@
 
-JQuery plugin for creating particle effects on a canvas element, for use by humans.
+JQuery plugin for creating particle effects (specifically, animated bubbles) on a canvas element, for use by humans.
 
 Demo: http://bubblr-demo.heroku.com/
 
