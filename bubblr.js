@@ -1,6 +1,7 @@
 /*
     Bubblr v1.0 - http://mikeyhogarth.wordpress.com/2012/04/15/bubblr-jquery-bubbles-plugin/ 
     Copyright (c) 2012 Mikey Hogarth
+	template based on original jquery lightweight plugin biolerplate: @ajpiano, @addyosmani
     This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
 */
 
