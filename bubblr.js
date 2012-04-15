@@ -1,3 +1,9 @@
+/*
+    Bubblr v1.0 - http://mikeyhogarth.wordpress.com/2012/04/15/bubblr-jquery-bubbles-plugin/ 
+    Copyright (c) 2012 Mikey Hogarth
+    This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
 ;(function ( $, window, document, undefined ) {
 
 	var pluginName = "bubblr";

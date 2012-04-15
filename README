@@ -1,16 +1,22 @@
 
-Work-in-progress JQuery plugin for creating particle effects on a canvas element, for use by humans.
+JQuery plugin for creating particle effects on a canvas element, for use by humans.
 
 Demo: http://bubblr-demo.heroku.com/
 
-# Usage
+Usage
+=====
 
-Apply the following to any canvas element. Plugin will auto detect whether the browser supports canvases or not and will not start the bubbles!
+Apply the following to any canvas element to start the bubbles...
 
-    $(element).bubblr();
+    $("#myCanvas").bubblr();
+
+Add options in the usual way...
+
+    $("#myCanvas").bubblr({ numberOfBubbles: 10, bubbleOpacity: .5 });
 
 
-# Current Options
+Options and Defaults
+====================
 
 * numberOfBubbles (default 10)
 * backgroundColor (default "transparent")
@@ -23,6 +29,7 @@ Apply the following to any canvas element. Plugin will auto detect whether the b
 * animationSpeed (default 10)
 
 
-# Future development
+Future development
+==================
 
 * Bubble direction / starting position
